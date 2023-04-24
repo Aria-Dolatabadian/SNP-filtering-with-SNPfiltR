@@ -89,3 +89,5 @@ vcfR.thin<-distance_thin(vcfR, min.distance = 500)
 
 #write out thinned vcf
 vcfR::write.vcf(vcfR.thin, "aphelocoma.filtered.thinned.vcf")
+
+#https://cran.r-project.org/web/packages/SNPfiltR/readme/README.html
